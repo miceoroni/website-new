@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>miceoroni</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  </head>
+  <body>
+      <div id="main">
+        <div id="main-back"></div>
+        <div id="main-main" style="display: flex; justify-content: center; align-items: center; height: 100px;">
+          <p class="title">miceoroni</p>
+          <ul>
+            <a href="https://github.com/miceoroni" id="github" class="button">github</a>
+            <a href="https://www.youtube.com/@miceoroni" id="youtube" class="button">youtube</a>
+            <a href="https://discordapp.com/users/user/261844435757694978" id="discord" class="button">discord</a>
+            <a href="https://www.instagram.com/miceoroni/" id="youtube" class="button">insta</a>
+          </ul>
+          <img src="./images/rexfella.png" class="rexfella"/>
+        </div>
+      </div>
+      <style>
+        @font-face {
+          font-family: Frutiger;
+          src: url('./fonts/Frutiger.ttf')
+        }
+
+        @font-face {
+          font-family: Adult Swim Bold;
+          src: url('./fonts/Adult Swim.otf')
+        }
+
+        @font-face {
+          font-family: Frutiger Bold;
+          src: url('./fonts/FrutigerBold.ttf')
+        }
+
+        html {
+          background: url(./images/background.png) no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+
+        .title {
+          color: black;
+          font-size: 25px;
+          font-family: Adult Swim Bold;
+        }
+
+        #main-main {
+          top: 50%;
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-shadow: 0 0 13px;
+        }
+
+        ul {
+          display: flex;
+          align-items: center;
+          top: 57px;
+          position: absolute;
+          left: -41px;
+        }
+
+        .button {
+          margin-right: 28px;
+          font-family: Frutiger;
+        }
+
+        .rexfella {
+          width: 200px;
+          position: absolute;
+          left: -200px;
+        }
+      </style>
+  </body>
+</html>
